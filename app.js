@@ -5,7 +5,7 @@ const app = express();
 
 
 // Database
-mongoose.connect(process.env.APP_DATABASE_CONNECT, {
+mongoose.connect("mongodb://localhost/streaming", {
     useNewUrlParser: true,
     useUnifiedTopology:  true,
 })
@@ -37,4 +37,4 @@ app.use('/directors', DirectorRoute);
 app.use('/actors', ActorRoute);
 app.use('/platforms', PlatformRoute);
 
-app.listen(process.env.APP_DATABASE_PORT);
+app.listen(3000);
