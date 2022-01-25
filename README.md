@@ -102,10 +102,10 @@ Videos (Films)
             "https://www.youtube.com/watch?v=Y9b1gBTztCI"
         ],
         "seasons": [],
-        "genres": ["61e9667781f2ea646487dde5"],
-        "type": "61ec2891ad645686ba2ada33",
-        "directors": ["61ec619343f6fe92e5ddc058", "61ec61c343f6fe92e5ddc05a"],
-        "actors": ["61ed6057f2d0780114e9cf20", "61ed6043f2d0780114e9cf1e", "61ed6029f2d0780114e9cf1c"]
+        "genres": [],
+        "type": null,
+        "directors": [],
+        "actors": []
     }
 ```
 (Series)
