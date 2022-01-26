@@ -6,18 +6,20 @@ Import the project
 ```bash
 git clone https://github.com/Xxapere22xX/StreamingAPI.git
 ```
+Go in Streaming folder
+
 Install dependances
 ```bash
 npm i
 ```
-In mongoDB create database called streaming
-
 
 Start server
 ```bash
 npm start
 ```
-Default route: mongodb://localhost/streaming
+MongoDb route: mongodb://localhost/streaming
+
+Default route : http://Localhost:3000
 
 Default port: 3000
 
@@ -122,45 +124,45 @@ Videos (Films)
         "year": "2011",
         "links": [],
         "seasons": [
-            {
-                "num": 1,
-                "name": "Season 1",
-                "episodes": [
-                    {
-                        "num": 1,
-                        "name": "Winter Is Coming",
-                        "links": [],
-                    },
-                    {
-                        "num": 2,
-                        "name": "The Kingsroad",
-                        "links": [],
-                    }
-                ],
-            },
-            {
-                "num": 2,
-                "name": "Season 2",
-                "episodes": [
-                    {
-                        "num": 1,
-                        "name": "The North Remembers",
-                        "links": [],
-                    },
-                    {
-                        "num": 2,
-                        "name": "The Night Lands",
-                        "links": [],
-                    },
-                    {
-                        "num": 3,
-                        "name": "What Is Dead May Never Die",
-                        "links": [],
-                    }
-                ],
-            }
-        ],
-    }
+                        {
+                                "num": 1,
+                                "name": "Season 1",
+                                "episodes": [
+                                                {
+                                                        "num": 1,
+                                                        "name": "Winter Is Coming",
+                                                        "links": []
+                                                },
+                                                {
+                                                        "num": 2,
+                                                        "name": "The Kingsroad",
+                                                        "links": []
+                                                }
+                                ]
+                        },
+                        {
+                                "num": 2,
+                                "name": "Season 2",
+                                "episodes": [
+                                                {
+                                                        "num": 1,
+                                                        "name": "The North Remembers",
+                                                        "links": []
+                                                },
+                                                {
+                                                        "num": 2,
+                                                        "name": "The Night Lands",
+                                                        "links": []
+                                                },
+                                                {
+                                                        "num": 3,
+                                                        "name": "What Is Dead May Never Die",
+                                                        "links": []
+                                                }
+                                ]
+                        }
+        ]
+}
 ```
 ##### <a id="update_videos_add">Add genre in video ->/videos/update/genres/add/:id</a>
 ```json
